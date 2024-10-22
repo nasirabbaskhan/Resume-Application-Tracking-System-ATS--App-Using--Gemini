@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "resume application tracking system(ats) app using  gemini"
+version = "0.1.0"
+description = ""
+authors = ["Nasir Abbas <akhtarabbas.islamicreaction@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+python-dotenv = "^1.0.1"
+streamlit = "^1.39.0"
+pypdf2 = "^3.0.1"
+langchain-google-genai = "^2.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
